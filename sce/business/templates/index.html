@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro</title>
+    <link rel="stylesheet" href="{% static 'business/style.css' %}">
+
+
+</head>
+
+
+<style>
+    body {
+        background-image: url('{% static "business/uni.jpg" %}'); background-size: cover; background-repeat: no-repeat;
+    }
+</style>
+
+
+<body>
+
+    <header class="navbar">
+        <h1 class="logo">Boas Vindas ao nosso Sistema de Cadastro!</h1>
+        <ul>
+            
+            <li><a href="index3.html" class="btn">Alunos</a></li>
+        </ul>
+    </header>
+
+    <section class="hero">
+
+        <h1>Sistema de Cadastro de Empresas</h1>
+        <p>Faça como um programador. Quando tudo está errado e confuso, apague tudo e recomece do zero. - Orlando Cordeiro </p>
+        <a href="admin/login/?next=/admin" class="btn">Começar</a>
+        
+
+    </section>
+
+</body>
+</html>
